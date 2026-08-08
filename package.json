@@ -1,0 +1,25 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev":"npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mshahnawaz1202/Typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mshahnawaz1202/Typescript/issues"
+  },
+  "homepage": "https://github.com/mshahnawaz1202/Typescript#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
