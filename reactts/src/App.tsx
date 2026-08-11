@@ -7,11 +7,9 @@ function App() {
     <>
     <div>
       <h1>Vite + React</h1>
-      <Card
-      name = "Headphone"
-      price = {5000}
+      <Card name = "Headphone" price = {5000}/>
+      <Card name = "IPhone" price = {500000}/>
 
-      />
     </div>
     
     </>
