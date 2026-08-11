@@ -1,21 +1,28 @@
-# TypeScript
+#  TypeScript Learning Repository
+
+![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-Enabled-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-v9+-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 A structured, hands-on TypeScript learning repository covering core language concepts from fundamentals to advanced patterns, accompanied by a companion React + TypeScript frontend project built with Vite.
 
 ---
 
-## Overview
+## 📖 Overview
 
 This repository serves as a practical TypeScript reference and study guide. It contains two distinct parts:
 
-- **`src/`** — A numbered sequence of TypeScript source files, each dedicated to a specific language concept (types, interfaces, generics, OOP, web requests, etc.), designed to be read and run in order.
-- **`reactts/`** — A fully functional React application written in TypeScript, demonstrating real-world usage of TypeScript with React components, hooks, and API integration.
+- 📂 **`src/`** — A numbered sequence of TypeScript source files, each dedicated to a specific language concept (types, interfaces, generics, OOP, web requests, etc.), designed to be read and run in order.
+- ⚛️ **`reactts/`** — A fully functional React application written in TypeScript, demonstrating real-world usage of TypeScript with React components, hooks, and API integration.
 
 An architecture diagram (`TSCodeFlowD.drawio.pdf`) and a `playlist.txt` file are included alongside the source to guide the learning sequence.
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 ```
 TYPESCRIPT/
@@ -74,27 +81,30 @@ TYPESCRIPT/
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-| Layer              | Technology |
-| ------------------ | ---------- |
-| Language           | TypeScript |
-| Frontend framework | React 18   |
-| Build tool         | Vite       |
-| Linting            | ESLint     |
-| Package manager    | npm        |
-| Module system      | ES Modules |
+| Badge                                                                                                            | Layer              | Technology |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------ | ---------- |
+| ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) | Language           | TypeScript |
+| ![React](https://img.shields.io/badge/-React_18-61DAFB?style=flat-square&logo=react&logoColor=black)             | Frontend Framework | React 18   |
+| ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white)                   | Build Tool         | Vite       |
+| ![ESLint](https://img.shields.io/badge/-ESLint-4B32C3?style=flat-square&logo=eslint&logoColor=white)             | Linting            | ESLint     |
+| ![npm](https://img.shields.io/badge/-npm-CB3837?style=flat-square&logo=npm&logoColor=white)                      | Package Manager    | npm        |
+| ![JavaScript](https://img.shields.io/badge/-ES_Modules-F7DF1E?style=flat-square&logo=javascript&logoColor=black) | Module System      | ES Modules |
 
 ---
 
-## Prerequisites
+## ✅ Prerequisites
+
+![Node.js](https://img.shields.io/badge/Node.js-v18%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![npm](https://img.shields.io/badge/npm-v9%2B-CB3837?style=flat-square&logo=npm&logoColor=white)
 
 - **Node.js** v18 or higher
 - **npm** v9 or higher
 
 ---
 
-## Installation
+## ⚙️ Installation
 
 ### 1. Clone the repository
 
@@ -118,9 +128,9 @@ npm install
 
 ---
 
-## Running the Project
+## 🚀 Running the Project
 
-### TypeScript Lesson Files
+### 📘 TypeScript Lesson Files
 
 Compile and run any lesson file from the root using `ts-node` or the TypeScript compiler:
 
@@ -140,7 +150,7 @@ npx tsc src/05_typeNarrowing.ts --outDir dist/
 node dist/05_typeNarrowing.js
 ```
 
-### React + TypeScript App (reactts)
+### ⚛️ React + TypeScript App (`reactts`)
 
 ```bash
 cd reactts
@@ -155,51 +165,51 @@ npm run build
 npm run preview
 ```
 
-The development server starts at `http://localhost:5173` by default (Vite).
+> The development server starts at `http://localhost:5173` by default (Vite).
 
 ---
 
-## TypeScript Lessons — What Each File Covers
+## 📚 TypeScript Lessons — What Each File Covers
 
-| File                       | Topic                                                |
-| -------------------------- | ---------------------------------------------------- |
-| `01index.ts`             | Introduction and entry point                         |
-| `02_typesInTS.ts`        | Primitive types:`string`, `number`, `boolean`  |
-| `03_UnionAndany.ts`      | Union types (`string \| number`) and `any`        |
-| `04_unknown_any.ts`      | Difference between`unknown` and `any`            |
-| `05_typeNarrowing.ts`    | Type guards,`typeof`, `instanceof` narrowing     |
-| `06_moreTypes.ts`        | Literal types, optional chaining, nullish coalescing |
-| `07_interfaceTS.ts`      | Defining and using interfaces                        |
-| `08_ObjectsTs.ts`        | Typing plain objects                                 |
-| `09_FunctionsTs.ts`      | Typed function parameters and return values          |
-| `10_ArrayEnumTuples.ts`  | Typed arrays, enums, and tuples                      |
-| `11_oop.ts`              | Classes, access modifiers, inheritance               |
-| `12_InterfacesDetail.ts` | Interface extension, merging, implementation         |
-| `13_Generics.ts`         | Generic functions, classes, and constraints          |
-| `14_webReq.ts`           | Typing HTTP responses and web requests               |
-| `15_fetchReq.ts`         | Using the Fetch API with TypeScript types            |
+| #  | File                       | Topic                                                   |
+| -- | -------------------------- | ------------------------------------------------------- |
+| 01 | `01index.ts`             | 🗂️ Introduction and entry point                       |
+| 02 | `02_typesInTS.ts`        | 🔤 Primitive types:`string`, `number`, `boolean`  |
+| 03 | `03_UnionAndany.ts`      | 🔀 Union types (`string \| number`) and `any`        |
+| 04 | `04_unknown_any.ts`      | ❓ Difference between`unknown` and `any`            |
+| 05 | `05_typeNarrowing.ts`    | 🔍 Type guards,`typeof`, `instanceof` narrowing     |
+| 06 | `06_moreTypes.ts`        | ➕ Literal types, optional chaining, nullish coalescing |
+| 07 | `07_interfaceTS.ts`      | 📐 Defining and using interfaces                        |
+| 08 | `08_ObjectsTs.ts`        | 📦 Typing plain objects                                 |
+| 09 | `09_FunctionsTs.ts`      | 🔧 Typed function parameters and return values          |
+| 10 | `10_ArrayEnumTuples.ts`  | 📋 Typed arrays, enums, and tuples                      |
+| 11 | `11_oop.ts`              | 🏛️ Classes, access modifiers, inheritance             |
+| 12 | `12_InterfacesDetail.ts` | 🔗 Interface extension, merging, implementation         |
+| 13 | `13_Generics.ts`         | 🧬 Generic functions, classes, and constraints          |
+| 14 | `14_webReq.ts`           | 🌐 Typing HTTP responses and web requests               |
+| 15 | `15_fetchReq.ts`         | 📡 Using the Fetch API with TypeScript types            |
 
 ---
 
-## React App — Key Components
+## ⚛️ React App — Key Components
 
 Located in `reactts/src/`:
 
-| File                         | Description                                              |
-| ---------------------------- | -------------------------------------------------------- |
-| `components/Card.tsx`      | Single card display component                            |
-| `components/CardList.tsx`  | Renders a list of`Card` components                     |
-| `components/Counter.tsx`   | Stateful counter component                               |
-| `components/List.tsx`      | Generic list component                                   |
-| `components/OrderForm.tsx` | Typed form component                                     |
-| `hooks/useFetch.ts`        | Custom hook for typed API data fetching                  |
-| `types.ts`                 | Shared type/interface definitions used across components |
-| `App.tsx`                  | Root application component                               |
-| `main.tsx`                 | Application entry point                                  |
+| File                         | Type         | Description                                              |
+| ---------------------------- | ------------ | -------------------------------------------------------- |
+| `components/Card.tsx`      | 🃏 Component | Single card display component                            |
+| `components/CardList.tsx`  | 📋 Component | Renders a list of`Card` components                     |
+| `components/Counter.tsx`   | 🔢 Component | Stateful counter component                               |
+| `components/List.tsx`      | 📝 Component | Generic list component                                   |
+| `components/OrderForm.tsx` | 📄 Component | Typed form component                                     |
+| `hooks/useFetch.ts`        | 🪝 Hook      | Custom hook for typed API data fetching                  |
+| `types.ts`                 | 🏷️ Types   | Shared type/interface definitions used across components |
+| `App.tsx`                  | 🌳 Root      | Root application component                               |
+| `main.tsx`                 | 🚪 Entry     | Application entry point                                  |
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -227,7 +237,7 @@ The `useFetch.ts` hook in the React app mirrors the concepts from `14_webReq.ts`
 
 ---
 
-## TypeScript Configuration
+## 🔧 TypeScript Configuration
 
 ### Root (`tsconfig.json`)
 
@@ -243,18 +253,18 @@ The React app uses Vite's recommended split tsconfig setup:
 
 ---
 
-## Suggested Learning Order
+## 🗺️ Suggested Learning Order
 
 Refer to `playlist.txt` in the root for the recommended study sequence. In general, follow the numeric prefixes in `src/`:
 
-1. Start with `01index.ts` for an overview
-2. Progress through `02` → `15` in order
-3. After `13_Generics.ts`, explore the `reactts/` app to see TypeScript applied in a real React project
-4. Consult `TSCodeFlowD.drawio.pdf` for a visual map of how concepts connect
+1. 🟢 Start with `01index.ts` for an overview
+2. ➡️ Progress through `02` → `15` in order
+3. ⚛️ After `13_Generics.ts`, explore the `reactts/` app to see TypeScript applied in a real React project
+4. 🗺️ Consult `TSCodeFlowD.drawio.pdf` for a visual map of how concepts connect
 
 ---
 
-## Troubleshooting
+## 🐛 Troubleshooting
 
 **`Cannot find module 'typescript'` or `tsc: command not found`**
 
@@ -275,3 +285,11 @@ npm run dev
 Each lesson file is self-contained. If `tsc` reports errors across files, compile individual files or check that `tsconfig.json` includes only the intended `src/` directory.
 
 ---
+
+## 📄 License
+
+No license file was detected in this repository. Contact the repository owner for usage terms.
+
+---
+
+<div align="center">
