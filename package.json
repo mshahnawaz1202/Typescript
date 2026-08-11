@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mshahnawaz1202/Typescript#readme",
   "devDependencies": {
+    "@types/axios": "^0.9.36",
     "typescript": "^7.0.2"
   },
   "dependencies": {
