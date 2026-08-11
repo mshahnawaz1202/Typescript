@@ -1,19 +1,20 @@
-import type {Juice} from '../types'
+
+import type { Juice } from '../types'
 import Card from './Card'
 
-interface ListProps{
-    items: Juice[]
+interface ListProps {
+  items: Juice[]
 }
 
-function List({items}: ListProps) {
+function List({ items }: ListProps) {
   return (
-    <div>
-      {items.map((j)=> (
+    <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {items.map((juice) => (
         <Card
-        key = {j.id}
-        name = {j.name}
-        price = {j.price}
-        isSpecial = {j.price > 150}
+          key={juice.id}
+          name={juice.name}
+          price={juice.price}
+          isSpecial={juice.price > 150}
         />
       ))}
     </div>
@@ -21,3 +22,4 @@ function List({items}: ListProps) {
 }
 
 export default List
+
