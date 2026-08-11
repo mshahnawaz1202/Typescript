@@ -1,4 +1,5 @@
 import Card from './components/Card.tsx'
+import { Counter } from './components/Counter.tsx'
 
 function App() {
   
@@ -10,6 +11,10 @@ function App() {
       <Card name = "Headphone" price = {5000}/>
       <Card name = "IPhone" price = {500000}/>
 
+    </div>
+
+    <div>
+      <Counter/>
     </div>
     
     </>
