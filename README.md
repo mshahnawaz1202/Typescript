@@ -284,12 +284,5 @@ npm run dev
 **Type errors on compilation**
 Each lesson file is self-contained. If `tsc` reports errors across files, compile individual files or check that `tsconfig.json` includes only the intended `src/` directory.
 
----
 
-## 📄 License
 
-No license file was detected in this repository. Contact the repository owner for usage terms.
-
----
-
-<div align="center">
