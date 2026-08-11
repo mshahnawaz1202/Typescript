@@ -2,6 +2,8 @@ import Card from './components/Card.tsx'
 import { Counter } from './components/Counter.tsx'
 import type {Juice} from '../types'
 import List from './components/List.tsx'
+import OrderForm from './components/OrderForm.tsx'
+import CardList from './components/CardList.tsx'
 
 const menu: Juice[] = [
   { id: 1, name: "Mango Juice", price: 150 },
@@ -26,7 +28,6 @@ function App() {
   return (
     <>
     <div>
-      <h1>Vite + React</h1>
       <Card name = "Headphone" price = {5000}/>
       <Card name = "IPhone" price = {500000}/>
 
@@ -38,7 +39,20 @@ function App() {
     <div>
       <List items = {menu} />
     </div>
-    
+    <div>
+      <OrderForm
+      onSubmit={(order)=>{
+        console.log("Placed ",order.name, order.cups);
+        
+      }}
+      />
+    </div>
+    <div>
+      <CardList
+        title='Code with Shah Nawaz'
+        footer = { <button>Order Now</button> }
+      />
+    </div>
     </>
   )
 }
