@@ -386,11 +386,7 @@ npm install -D @types/your-library
 
 ---
 
-## 📄 License
 
-No license file was detected in this repository. Contact the repository owner for usage terms.
-
----
 
 <div align="center">
 
